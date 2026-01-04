@@ -476,3 +476,30 @@ footer p {
 .project-detail li {
   margin-bottom: 0.5rem;
 }
+
+
+#youtube {
+  padding: 4vh 10rem;
+  text-align: center;
+}
+
+.youtube-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-title {
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: rgb(85, 85, 85);
+}
+
