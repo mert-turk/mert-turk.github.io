@@ -446,3 +446,33 @@ footer p {
 #home {
   margin: 0;
 }
+
+.project-description {
+  font-size: 0.95rem;
+  color: rgb(85, 85, 85);
+  margin: 0.5rem 1rem 1rem;
+  line-height: 1.5;
+}
+
+
+
+.project-detail {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+}
+
+.project-detail-text {
+  margin: 1.5rem 0;
+  line-height: 1.7;
+  color: rgb(85, 85, 85);
+}
+
+.project-detail ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-detail li {
+  margin-bottom: 0.5rem;
+}
