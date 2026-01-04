@@ -437,3 +437,7 @@ footer {
 footer p {
   text-align: center;
 }
+
+#home .section__text {
+  max-width: 500px;
+}
