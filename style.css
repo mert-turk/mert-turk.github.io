@@ -194,6 +194,13 @@ section {
   margin-bottom: 1rem;
 }
 
+.section__text__p3 {
+  margin-top: 1rem;
+  line-height: 1.6;
+  color: rgb(85, 85, 85);
+  text-align: left;
+}
+
 .title {
   font-size: 3rem;
   text-align: center;
