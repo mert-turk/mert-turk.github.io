@@ -162,7 +162,7 @@ section {
 
 /* PROFILE SECTION */
 
-#profile {
+#home {
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -198,7 +198,7 @@ section {
   margin-top: 1rem;
   line-height: 1.6;
   color: rgb(85, 85, 85);
-  text-align: left;
+  text-align: center;
 }
 
 .title {
@@ -440,4 +440,9 @@ footer p {
 
 #home .section__text {
   max-width: 500px;
+}
+
+
+#home {
+  margin: 0;
 }
