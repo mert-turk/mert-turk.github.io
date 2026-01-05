@@ -503,3 +503,7 @@ footer p {
   color: rgb(85, 85, 85);
 }
 
+.university {
+  font-weight: 600;        /* normal metinden daha kalın */
+  color: rgb(40, 40, 40);  /* saf siyah değil, daha soft */
+}
