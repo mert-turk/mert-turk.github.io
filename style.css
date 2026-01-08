@@ -465,7 +465,7 @@ footer p {
 .project-detail-text {
   margin: 1.5rem 0;
   line-height: 1.7;
-  color: rgb(85, 85, 85);
+  color:black;
 }
 
 .project-detail ul {
