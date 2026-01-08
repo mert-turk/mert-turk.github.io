@@ -299,10 +299,6 @@ section {
   margin-bottom: 1rem;
 }
 
-.project-img {
-  height: 200px; /* All images will have the same height */
-  object-fit: cover; /* Keeps aspect ratio without distortion */
-}
 
 
 .about-details-container {
@@ -396,12 +392,12 @@ article .icon {
   background: rgb(250, 250, 250);
 }
 
-/*
+
 .project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
-} */
+} 
 
 .project-title {
   margin: 1rem;

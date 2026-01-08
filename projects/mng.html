@@ -12,23 +12,48 @@
     <h1 class="title">Measurement Network Gateway</h1>
 
     <p class="project-detail-text">
-      In this project, I focused on understanding how the Linux kernel interacts
-      with hardware by writing a basic character device driver. The goal was to
-      explore kernel space vs user space and implement a clean driver structure.
+      Measurement Network Gateway collects data from multiple sensor nodes and routes
+      it to a user interface to inform users about the system. Sensor data is acquired
+      by the Programmable Logic (FPGA) due to its high I/O capability and parallel
+      sampling, while the Processing System (ARM Cortex-A9) is used for
+      networking and control management. On the Zynq platform, symmetric 
+      multiprocessing (SMP) is utilized. Linux is used as the operating system.
     </p>
 
-    <h3>What I worked on</h3>
+    <h3>What?</h3>
     <ul>
-      <li>Character device driver development</li>
-      <li>Kernel module loading and unloading</li>
-      <li>File operations (open, read, write)</li>
-      <li>Cross-compilation for embedded targets</li>
+      <li>SW/HW co-design for sampling sensor nodes with the PL, and control 
+        management and networking with the PS using Embedded Linux.</li>
+      <li>The core objective is to create reliable networking between the SoC and 
+        the GUI, enabling communication for controlling sensor sampling 
+        frequencies, managing sensors, and performing read/write operations via 
+        the AXI interface.</li>
     </ul>
 
-    <h3>Technologies</h3>
-    <p>C, Embedded Linux, Linux Kernel, Makefile</p>
+    <div class="article-container">
+      <img
+        src="../assets/mng_zedboard.jpg"
+        alt="Project 3"
+        class="project-img"
+      />
+    </div>
 
-    <a href="../index.html" class="btn btn-color-1">Back to Portfolio</a>
+
+    <h3>How?</h3>
+    <ul>
+      <li>Implemented SPI in VHDL using Vivado.</li>
+      <li>Created AXI IP to control hardware from the PS side.</li>
+      <li>Embedded Linux image created using PetaLinux.</li>
+      <li>GUI developed using the GTK library.</li>
+    </ul>
+
+    <div class="btn-container">
+        <button href="../index.html#projects" 
+        class="btn btn-color-1"
+        >Back to Portfolio       
+     </button>
+    </div>
+
   </section>
 
 </body>
