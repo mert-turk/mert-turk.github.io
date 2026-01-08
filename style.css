@@ -276,27 +276,17 @@ section {
 
 
 .about-containers {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
-  align-items: start; /* This should work, but let's be more specific */
-}
-
-.details-container.color-container {
-  height: 500px; /* All cards will have the same fixed height */
-}
-
-
-
-/* Fix image container */
-.article-container {
-  height: 200px; /* Fixed height for images */
   display: flex;
-  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+
+
+.article-container {
+  display: flex;
   justify-content: center;
-  overflow: hidden;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
 }
 
 
@@ -393,11 +383,11 @@ article .icon {
 }
 
 
-.project-img {
+project-img {
   border-radius: 2rem;
   width: 90%;
-  height: 90%;
-} 
+  height: auto; /* CHANGED: Back to auto from 90% */
+}
 
 .project-title {
   margin: 1rem;
@@ -407,6 +397,10 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+}
+
+.about-containers {
+  align-items: stretch;
 }
 
 /* CONTACT */
