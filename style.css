@@ -367,15 +367,24 @@ article .icon {
 }
 
 .color-container {
-  border-color: rgb(163, 163, 163);
+  display: flex;
+  flex-direction: column;  /* stack image, title, buttons */
+  align-items: center;     /* center content */
+  padding: 1rem;
   background: rgb(250, 250, 250);
+  border-radius: 2rem;
+  border: 0.1rem solid rgb(163, 163, 163);
 }
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 100%;       /* image fills container width */
+  max-width: 400px;  /* optional: prevent too large images */
+  height: auto;      /* maintain aspect ratio */
+  display: block;
+  margin: 0 auto;    /* center image horizontally */
 }
+
 
 .project-title {
   margin: 1rem;
