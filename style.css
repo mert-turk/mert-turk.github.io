@@ -336,9 +336,11 @@ section {
 
 .experience-details-container {
   display: flex;
+  gap: 2rem;       /* space between project cards */
+  flex-wrap: wrap;  /* wrap on smaller screens */
   justify-content: center;
-  flex-direction: column;
 }
+
 
 .article-container {
   display: flex;
@@ -379,11 +381,12 @@ article .icon {
 .project-img {
   border-radius: 2rem;
   width: 100%;       /* image fills container width */
-  max-width: 400px;  /* optional: prevent too large images */
-  height: auto;      /* maintain aspect ratio */
+  max-width: 400px;  /* prevents huge images on big screens */
+  height: auto;      /* keeps aspect ratio */
   display: block;
-  margin: 0 auto;    /* center image horizontally */
+  margin: 0 auto;    /* centers image in container */
 }
+
 
 
 .project-title {
